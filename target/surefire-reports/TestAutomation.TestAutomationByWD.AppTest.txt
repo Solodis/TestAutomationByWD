@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestAutomation.TestAutomationByWD.AppTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.461 sec <<< FAILURE!
+startBrowser(TestAutomation.TestAutomationByWD.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.util.MissingResourceException: Can't find bundle for base name data, locale ru_RU
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1564)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1387)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:773)
+	at TestAutomation.TestAutomationByWD.AppTest.startBrowser(AppTest.java:35)

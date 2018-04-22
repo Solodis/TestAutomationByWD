@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestAutomation.TestAutomationByWD.AppTest">
+        <methods>
+          <include name="search"/>
+          <include name="startBrowser"/>
+          <include name="smokeTestForMainPage"/>
+        </methods>
+      </class> <!-- TestAutomation.TestAutomationByWD.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
