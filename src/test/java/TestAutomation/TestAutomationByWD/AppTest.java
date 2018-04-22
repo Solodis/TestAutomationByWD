@@ -61,12 +61,12 @@ public class AppTest extends TestCase {
 
 	@Test
 	public void botForDiman() {
-		// mainPage.clickMessageButton();
+		mainPage.clickMessageButton();
 	}
 
 	@AfterTest
 	public void quit() {
-		driver.quit();
+		//driver.quit();
 	}
 
 }
