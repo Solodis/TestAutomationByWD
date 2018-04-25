@@ -36,8 +36,8 @@ public class AppTest extends TestCase {
 	public void startBrowser() {
 		bundle = ResourceBundle.getBundle(dataPath);
 		LOG.info("Statrting driver launch");
-		//driver = Driver.getWebDriverInstance("Chrome", DriverTypes.CHROME);
-		driver = Driver.getWebDriverInstance();
+		driver = Driver.getWebDriverInstance("Chrome", DriverTypes.CHROME);
+		//driver = Driver.getWebDriverInstance();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		navigate();
 

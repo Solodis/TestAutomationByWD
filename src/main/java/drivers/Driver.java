@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-import Exceptions.UnknownDriverTypeExcepiton;
+import exceptions.UnknownDriverTypeExcepiton;
 
 public class Driver {
 	private static final String DEFAULT_WEB_DRIVER = "DEFAULT_WEB_DRIVER";
@@ -17,9 +17,9 @@ public class Driver {
 	private static HashMap<String, WebDriver> instances;
 	
 	static{
-		File seleniumPath = new File("F:\\Drivers\\GeckoDriver\\geckodriver-v0.20.1-win64\\geckodriver.exe");
+		File seleniumPath = new File("F:\\JavaProjects\\TestAutomationByWD\\src\\test\\java\\geckodriver.exe");
 		System.setProperty("webdriver.gecko.driver", seleniumPath.getAbsolutePath());
-		System.setProperty("webdriver.chrome.driver", "F:\\Drivers\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "F:\\JavaProjects\\TestAutomationByWD\\src\\test\\java\\chromedriver.exe");
 		instances = new HashMap<String, WebDriver>();
 	}
 	
